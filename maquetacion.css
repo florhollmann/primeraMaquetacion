@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: "Sans serif";
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 200px;
+    background-color: #FF5959;
+}
+
+a , h1 {
+    color: white;  
+    text-decoration: none; 
+    margin-left: 16px;
+}
+
+#banner {
+    height: 400px;
+    background-image: url(access-blur.jpg);
+    background-size: cover;
+    background-position: 80% 80%;
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+}
+
+#banner > div { 
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;    
+}
+ #banner > div h2 {
+     color: #FF5959;
+     font-size: 40px;
+     margin-bottom: 15px;
+     text-shadow: 1px 1px 1px rgba(0, 0,0, 0.8);
+ }
+
+ #seccionServicios {
+     flex-direction: column;
+     text-align: center;
+     padding: 50px 200px;
+ }
+
+#grupoDeServicios{
+    display: flex;
+    flex-direction: row;
+}
+ .cadaServicio {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 15px;
+ }
+
+ .cadaServicio h3 {
+     margin: 20px 0;
+ }
+ .cadaServicio p {
+     text-align: justify;
+ }
+
+ #servicio1 {
+    background-color: #FF5959;
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+ }
+
+ #servicio2 {
+     background-color: #FF5959; 
+     height: 50px;
+     width: 50px; 
+     border-radius: 50%;
+    }
+#servicio3 {
+    background-color: #FF5959;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
